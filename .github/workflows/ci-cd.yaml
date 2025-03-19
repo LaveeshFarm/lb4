@@ -38,8 +38,8 @@ jobs:
 
       # Шаг 6: Собрать Docker-образ
       - name: Build Docker image
-        run: docker build -t university/lb4:latest .
+        run: docker build -t laveeshfarm/university:latest .
 
       # Шаг 7: Запушить Docker-образ в Docker Hub
       - name: Push Docker image
-        run: docker push university/lb4:latest
+        run: docker push laveeshfarm/university:latest
