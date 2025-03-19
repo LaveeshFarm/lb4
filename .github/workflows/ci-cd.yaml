@@ -3,7 +3,7 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - master  # Запускать пайплайн при пуше в ветку master
+      - main  # Запускать пайплайн при пуше в ветку master
 
 jobs:
   build-and-push:
